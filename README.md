@@ -1,6 +1,7 @@
 # Play-Framework Dynamic Authorization Using Deadbolt-2
 
 In this sample application we are using **Deadbolt-2** for maintaining dynamic **Authorization** using **Play-Framework 2.3.x**, **H2 Database** and **ReactiveMongo-Extensions**. We are using **Deadbolt-2** for secure our controllers with dynaimc authorization. The **Deadbolt-2.3.2** version not supported reactive-mongo, so we maintain permission using **JDBC** and rest of data maintain in **Mongodb** using **ReactiveMongo**. Our RDBMS tables structure and sample data are declared in **conf/evolutions/default** directory. Our mongodb collection structure as below:    
+
 **NOTE: We are facing problem with Deadbolt-2.3.3 version. [Please access this link.](http://stackoverflow.com/questions/30002646/playframework-with-deadbolt2-overriding-method-getsubject-in-trait-deadbolthand) **
 
 ```sh
